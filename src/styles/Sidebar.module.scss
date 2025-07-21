@@ -1,0 +1,35 @@
+.sidebar {
+    position: relative;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    background-color: #797979;
+    padding: 1rem;
+    box-sizing: border-box;
+    transition: 0.5s;
+    overflow: hidden;
+    text-wrap: nowrap;
+    gap: 15px;
+}
+.node-box {
+    background-color: #939393;
+    border-right: 1px solid #ccc;
+}
+.node-box:hover {
+    background-color: #707070;
+}
+.open {
+    width: 240px;
+    padding: 1rem;
+}
+.closed {
+    width: 0;
+    padding: 0rem;
+}
+.nodeBox {
+    background-color: #4e4e4e;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 5px;
+    font-weight: bold;
+}

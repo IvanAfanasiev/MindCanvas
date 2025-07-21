@@ -1,0 +1,18 @@
+.nodeHeader {
+    width: 100%;
+    cursor: move;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 5px 0;
+    box-sizing: border-box;
+    background-color: #aaa;
+    color: rgb(89, 89, 89);
+    font-weight: bold;
+    padding: 5px;
+}
+.node {
+    border-radius: 5px;
+    min-width: min(fit-content, 100px);
+    max-width: 270px;
+    cursor: auto;
+}

@@ -1,0 +1,64 @@
+.dataNode {
+    background: rgba(255, 255, 255, 0);
+    overflow: auto;
+
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        flex-grow: 1;
+        border: 2px dashed #aaa;
+        border-radius: 8px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: field;
+    }
+    .data {
+        display: flex;
+        flex-direction: column;
+    }
+    .row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+        gap: 4px;
+    }
+
+    .keyInput,
+    .valueInput {
+        padding: 4px;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        width: 40%;
+        text-overflow: ellipsis;
+    }
+
+    .valueInput:disabled {
+        background: #eee;
+        color: #999;
+    }
+
+    .actions {
+        display: flex;
+        gap: 4px;
+        margin-left: auto;
+        width: 20px;
+    }
+
+    .typeButton:hover {
+        background: #d7f1ff;
+    }
+
+    .deleteButton:hover {
+        background: #ffd7d7;
+    }
+
+    .addButton:hover {
+        background: #c8e6c9;
+    }
+}

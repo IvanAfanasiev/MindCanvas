@@ -1,0 +1,22 @@
+.deleteButton {
+    aspect-ratio: 1/1;
+    background: #e10000;
+    border: 1px solid #ccc;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.addButton {
+    aspect-ratio: 1/1;
+    margin-top: 6px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: #1a7a11;
+    border: 1px solid #bbb;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
